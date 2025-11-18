@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'homepage_project.urls'
+ROOT_URLCONF = 'homepageCJMQ.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 
-WSGI_APPLICATION = 'homepage_project.wsgi.application'
+WSGI_APPLICATION = 'homepageCJMQ.wsgi.application'
 
 
 # Database
